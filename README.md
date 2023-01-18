@@ -25,3 +25,17 @@ For the version build timestamp to work, you need to add the following to your c
   </PropertyGroup>
 
 ```
+version numbering is taken from csproj file as well
+```
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    ...
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+   ...
+</Project>
+```
+
+##Todo
+Add support for all the standard HashAlgoritms in System.Security.Cryptography
+Regex instead of contains on checksums.
